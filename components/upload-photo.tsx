@@ -26,8 +26,6 @@ export const UploadPhoto: React.FC<UploadPhotoProps> = ({
   refresh,
   navigation,
 }) => {
-  ///// upload image ////
-
   const uploadPhotoToS3 = async () => {
     const imagePath = photo?.uri;
 
